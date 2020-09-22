@@ -15,6 +15,7 @@ import { HistoryPageComponent } from './history-page/history-page.component';
 import { OrderPageComponent } from './order-page/order-page.component';
 import { CategoriesPageComponent } from './categories-page/categories-page.component';
 import { TokenInterceptor } from './shared/classes/token.interceptor';
+import { LoaderComponent } from './sgared/components/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { TokenInterceptor } from './shared/classes/token.interceptor';
     AnalyticsPageComponent,
     HistoryPageComponent,
     OrderPageComponent,
-    CategoriesPageComponent
+    CategoriesPageComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,

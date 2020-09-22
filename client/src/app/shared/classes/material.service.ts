@@ -1,13 +1,13 @@
-import { ElementRef } from '@angular/core'
+import { ElementRef } from '@angular/core';
 
-declare var M
+declare var M;
 
 export class MaterialServise {
-    static toast(message: string){
-        M.toast({html: message})
-    }
+  static toast(message: string) {
+    M.toast({ html: message });
+  }
 
-    static initializeFloatingButton(ref: ElementRef){
-        M.FloatingActionButton.init(ref.nativeElement)
-    }
-} 
+  static initializeFloatingButton(ref: ElementRef) {
+    M.FloatingActionButton.init(ref.nativeElement);
+  }
+}
